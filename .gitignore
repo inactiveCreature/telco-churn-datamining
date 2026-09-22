@@ -1,11 +1,22 @@
+# Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
 .ipynb_checkpoints/
+
+# Environments
 .venv/
 venv/
+env/
+
+# Data (dataset is fetched from URL at runtime, not stored in repo)
 *.csv
 data/
+
+# OS
 .DS_Store
+
+# Editors
 .vscode/
 .idea/
